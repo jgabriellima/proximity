@@ -1,2 +1,3 @@
 # proximity
-Proximity sensing for disease spread modeling 
+
+a [Sails](http://sailsjs.org) application
