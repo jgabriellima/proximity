@@ -135,7 +135,7 @@ module.exports = {
     var r = {};
     try {
 
-      User.find().populate('beaconusers').exec(function (err, r) {
+      User.find().exec(function (err, r) {
         return res.json(r);
       });
     } catch (e) {
